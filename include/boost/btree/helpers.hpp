@@ -18,7 +18,7 @@
 #include <boost/btree/detail/config.hpp>
 #include <boost/cstdint.hpp>
 #include <boost/detail/bitmask.hpp>
-#include <boost/endian/types.hpp>
+#include <boost/endian/arithmetic.hpp>
 #include <boost/assert.hpp>
 #include <algorithm>
 #include <cstdlib>

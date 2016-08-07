@@ -173,18 +173,18 @@ namespace boost
 #         endif
           )
         {
-          endian::reverse(m_node_size);
-          endian::reverse(m_key_size);
-          endian::reverse(m_mapped_size);
-          endian::reverse(m_element_count);
-          endian::reverse(m_signature);
-          endian::reverse(m_flags);
-          endian::reverse(m_root_node_id);
-          endian::reverse(m_last_node_id);
-          endian::reverse(m_node_count);
-          endian::reverse(m_leaf_node_count);
-          endian::reverse(m_branch_node_count);
-          endian::reverse(m_free_node_list_head_id);
+          endian::endian_reverse(m_node_size);
+          endian::endian_reverse(m_key_size);
+          endian::endian_reverse(m_mapped_size);
+          endian::endian_reverse(m_element_count);
+          endian::endian_reverse(m_signature);
+          endian::endian_reverse(m_flags);
+          endian::endian_reverse(m_root_node_id);
+          endian::endian_reverse(m_last_node_id);
+          endian::endian_reverse(m_node_count);
+          endian::endian_reverse(m_leaf_node_count);
+          endian::endian_reverse(m_branch_node_count);
+          endian::endian_reverse(m_free_node_list_head_id);
         }
       }
     };
